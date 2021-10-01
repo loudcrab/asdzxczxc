@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+.horizontal-trigger {
+  height: calc(100% - 100vh);
+}
+
+.kekw {
+  border: 1px solid green;
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+}
+
+.horizontal-section {
+  height: 300vw;
+  width: 100%;
+  border: 4px solid pink;
+}
+
+.sticky {
+  display: flex;
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vw;
+}
+
+.horizontal-item {
+  border: 1px solid red;
+  padding: 20px;
+  width: 30%;
+}
+
+.omega {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vw;
+}
+
+#wtf {
+}
